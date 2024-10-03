@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Timestamp Microservice</title>
+      
+      <!-- Bootstrap CSS -->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      
+      <!-- Custom CSS (optional) -->
+      <style>
+         body {
+            font-family: 'Roboto', sans-serif;
+         }
+         h1, h2 {
+            text-align: center;
+         }
+         .container {
+            margin-top: 50px;
+         }
+         .footer {
+            text-align: center;
+            margin-top: 50px;
+         }
+      </style>
+   </head>
+
+   <body>
+      <div class="container">
+         <h1 class="my-4">Timestamp Microservice</h1>
+         <hr />
+         <div class="row">
+            <div class="col-md-6 offset-md-3">
+               <h2 class="my-4 text-center">Example Usage:</h2>
+               <ul class="list-group">
+                  <li class="list-group-item">
+                     <a href="/api/2015-12-25" class="text-info">[project url]/api/2015-12-25</a>
+                  </li>
+                  <li class="list-group-item">
+                     <a href="/api/1451001600000" class="text-info">[project url]/api/1451001600000</a>
+                  </li>
+               </ul>
+               <h2 class="my-4 text-center">Example Output:</h2>
+               <p class="text-center">
+                  <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+               </p>
+            </div>
+         </div>
+         <div class="footer">
+            <p>By <a href="https://github.com/AnishRM-ai/TimeStamp-Microservice-in-Nodejs" class="text-info">Anish R Magar</a></p>
+         </div>
+      </div>
+
+      <!-- Bootstrap JS and dependencies -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </body>
+</html>
